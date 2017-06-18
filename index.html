@@ -5,24 +5,95 @@
     <title>TortoiseshellOptics</title>
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
   </head>
 
   <body>
 
-    <header>
-      <div class="container">
+  <?-  Top banner with hero background image, menu bar and headline box  ->
+  <header>
 
-      </div>
+        <?-  Banner with logo and menu  ->
+        <nav class="container">
+
+          <?-  Logo and text in upper left corner  ->
+          <div>
+            <img src="./resources/images/logo-white.png">
+            <span>Tortoiseshell Optics</span>
+          </div>
+
+          <?-  Full nav menu for desktop and tablet  ->
+          <div class="menu">
+            <ul>
+              <li>Services</li>
+              <li>Products</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+
+          <?-  Truncated nav menu for mobile phone  ->
+          <div class="truncated-menu">
+            <ul>
+              <li>Menu</li>
+            </ul>
+          </div>
+
+        </nav>
+
+        <?-  Container to hold headline box  ->
+        <div class="headline-box container">
+
+          <div class="headline">
+            <h1>DON'T JUST LOOK, SEE.</h1>
+          </div>
+
+        </div>
+
     </header>
 
-    <main>
+    <?-  Section with three icons  ->
+    <section class="icon-container">
 
+      <div class="service">
+        <img src="./resources/images/paper-icon.png">
+        <div>Comprehensive Exams</div>
+      </div>
 
+      <div class="service">
+        <img src="./resources/images/ruler-icon.png">
+        <div>Custom Fittings</div>
+      </div>
 
-    </main>
+      <div class="service">
+        <img src="./resources/images/truck-icon.png">
+        <div>Fast Delivery</div>
+      </div>
 
-    <footer>
-      
+    </section>
+
+    <?-  Section with philosophy and appointment info  ->
+    <section class="info container">
+
+      <div class="detail">
+        <div class="title">PHILOSOPHY</div>
+        <p>Over 75% of our brains are dedicated to one sense: vision. We believe everyone deserves to see the world, not matter what. That’s why we offer eye exams, custom fittings, and quick delivery at a low cost. It’s your vision that makes ours.
+        </p>
+      </div>
+
+      <div class="detail">
+        <div class="title">APPOINTMENTS</div>
+        <p>Schedule an appointment by calling us at (312) 654-0987. We’re open Tuesday - Saturday, 9AM - 6PM.
+        </p>
+      </div>
+
+    </section>
+
+    <footer class="container">
+
+      <?-  Logo and text in footer  ->
+      <img src="./resources/images/logo-black.png">
+      <p>Copyright Tortoiseshell Optics</p>
+
     </footer>
 
   </body>
